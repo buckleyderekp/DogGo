@@ -1,7 +1,14 @@
 ﻿using DogGo.Models;
+using DogGo.Views;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace DogGo.Repositories
 {
@@ -21,6 +28,16 @@ namespace DogGo.Repositories
             {
                 return new SqlConnection(_config.GetConnectionString("DefaultConnection"));
             }
+        }
+
+        private ActionResult RedirectToAction(string v1, string v2)
+        {
+            throw new NotImplementedException();
+        }
+
+        private ActionResult Unauthorized()
+        {
+            throw new NotImplementedException();
         }
 
         public List<Owner> GetAllOwners()
@@ -226,5 +243,8 @@ namespace DogGo.Repositories
                 }
             }
         }
+
+
+
     }
 }

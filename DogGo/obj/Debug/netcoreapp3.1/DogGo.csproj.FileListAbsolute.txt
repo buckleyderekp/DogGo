@@ -418,3 +418,4 @@ C:\Users\16154\workspace\csharp\DogGo\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\16154\workspace\csharp\DogGo\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Dog\Index.cshtml.g.cs
 C:\Users\16154\workspace\csharp\DogGo\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Dog\Create.cshtml.g.cs
 C:\Users\16154\workspace\csharp\DogGo\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Dog\Delete.cshtml.g.cs
+C:\Users\16154\workspace\csharp\DogGo\DogGo\DogGo\obj\Debug\netcoreapp3.1\Razor\Views\Owners\Login.cshtml.g.cs
